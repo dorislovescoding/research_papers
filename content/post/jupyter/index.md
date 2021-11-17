@@ -1,84 +1,18 @@
 ---
-title: Display Jupyter Notebooks with Academic
-subtitle: Learn how to blog in Academic using Jupyter notebooks
-summary: Learn how to blog in Academic using Jupyter notebooks
-authors:
-- admin
+summary: ""
+authors: []
+lastMod: 2019-09-05T00:00:00Z
+title: Research Papers
+subtitle: ""
+date: 2021-11-17T10:16:20.524Z
 tags: []
 categories: []
 projects: []
-date: "2019-02-05T00:00:00Z"
-lastMod: "2019-09-05T00:00:00Z"
 image:
   caption: ""
   focal_point: ""
 ---
+​**Vertical Relations, Demand Risk, and Upstream Concentration: the Case of the US Automobile Industry ( Job Market Paper) PDF**
 
-```python
-from IPython.core.display import Image
-Image('https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png')
-```
-
-
-
-
-![png](./index_1_0.png)
-
-
-
-
-```python
-print("Welcome to Academic!")
-```
-
-    Welcome to Academic!
-
-
-## Install Python and JupyterLab
-
-[Install Anaconda](https://www.anaconda.com/distribution/#download-section) which includes Python 3 and JupyterLab.
-
-Alternatively, install JupyterLab with `pip3 install jupyterlab`.
-
-## Create or upload a Jupyter notebook
-
-Run the following commands in your Terminal, substituting `<MY-WEBSITE-FOLDER>` and `<SHORT-POST-TITLE>` with the file path to your Academic website folder and a short title for your blog post (use hyphens instead of spaces), respectively:
-
-```bash
-mkdir -p <MY-WEBSITE-FOLDER>/content/post/<SHORT-POST-TITLE>/
-cd <MY-WEBSITE-FOLDER>/content/post/<SHORT-POST-TITLE>/
-jupyter lab index.ipynb
-```
-
-The `jupyter` command above will launch the JupyterLab editor, allowing us to add Academic metadata and write the content.
-
-## Edit your post metadata
-
-The first cell of your Jupter notebook will contain your post metadata ([front matter](https://sourcethemes.com/academic/docs/front-matter/)).
-
-In Jupter, choose _Markdown_ as the type of the first cell and wrap your Academic metadata in three dashes, indicating that it is YAML front matter: 
-
-```
----
-title: My post's title
-date: 2019-09-01
-
-# Put any other Academic metadata here...
----
-```
-
-Edit the metadata of your post, using the [documentation](https://sourcethemes.com/academic/docs/managing-content) as a guide to the available options.
-
-To set a [featured image](https://sourcethemes.com/academic/docs/managing-content/#featured-image), place an image named `featured` into your post's folder.
-
-For other tips, such as using math, see the guide on [writing content with Academic](https://sourcethemes.com/academic/docs/writing-markdown-latex/). 
-
-## Convert notebook to Markdown
-
-```bash
-jupyter nbconvert index.ipynb --to markdown --NbConvertApp.output_files_dir=.
-```
-
-## Example
-
-This post was created with Jupyter. The orginal files can be found at https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter
+\
+This paper studies how upstream market concentration and demand risk affect downstream firms' outsourcing decisions. I formulate a structural model in which outsourcing allows the downstream firms to avoid the uncertain in-house production cost by switching to a stable price and where upstream firms leverage the insurance motive of downstream firms by increasing prices. The model delivers equilibrium outsourcing patterns, as well as equilibrium upstream prices. I estimate the model using data on the vehicle manufacturers and upstream transmission firms in the automobile industry. Facing a negative demand shock equivalent to the recent pandemic, when the upstream firms' prices are fixed, outsourcing from upstream firms mitigates the rise in transmissions' production cost by 48%. Endogenizing upstream's price response to downstream firms' outsourcing incentives increases their prices by $137.18 (7%). Next, I evaluate the potential impact of the United States-Mexico-Canada Agreement. When the upstream market is more concentrated under the protectionist trade policy, the upstream's price response to the same pandemic demand shock is 68% larger. It further amplifies the impact of economic downturns on consumer welfare and manufacturers' profit by 65%.
