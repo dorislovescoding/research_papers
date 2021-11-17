@@ -1,6 +1,7 @@
 ---
 title: Qinshu Xue
 role: ""
+avatar_filename: img_3696.jpg
 bio: I am a Ph.D. candidate in the Department of Economics, Cornell University.
 social: []
 organizations:
