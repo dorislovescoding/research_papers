@@ -4,7 +4,7 @@ widget_id: Research Papers
 headless: true
 weight: 0
 title: "​Vertical Relations, Demand Risk, and Upstream Concentration: the Case
-  of the US Automobile Industry"
+  of the US Automobile Industry (JMP)"
 active: true
 design:
   columns: "2"
