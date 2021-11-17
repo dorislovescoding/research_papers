@@ -1,6 +1,6 @@
 ---
 widget: blank
-widget_id: "123"
+widget_id: Research Papers
 headless: true
 weight: 0
 title: "​Vertical Relations, Demand Risk, and Upstream Concentration: the Case
